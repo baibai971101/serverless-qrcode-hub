@@ -2,6 +2,7 @@
   "name": "serverless-qrcode-hub",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "pnpm@9.10.0",
   "scripts": {
     "dev": "echo 'Cron triggered at http://localhost:8787/__scheduled?cron=*+*+*+*+*' && wrangler dev --ip 0.0.0.0 --env dev --test-scheduled",
     "deploy": "wrangler deploy"
